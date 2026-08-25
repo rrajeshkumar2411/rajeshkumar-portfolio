@@ -1,143 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Rajesh Kumar R Portfolio</title>
-</head>
-<body>
-<a href="RajeshkumarR.pdf" download class
-    
-<h1>Rajesh Kumar R</h1>
-<h2>Senior IT Operations & Endpoint Management Analyst</h2>
-
-<h3>About Me</h3>
-<p>
-Experienced IT professional specializing in Azure, AWS,
-Microsoft Intune, Microsoft 365, Endpoint Management,
-Cloud Security and Infrastructure Operations.
-</p>
-
-<h3>Skills</h3>
-<ul>
-<li>Microsoft Intune</li>
-<li>Azure Administration</li>
-<li>AWS Cloud</li>
-<li>Microsoft 365</li>
-<li>SharePoint Online</li>
-<li>FortiGate Firewall</li>
-<li>Windows Administration</li>
-</ul>
-
-<h3>Projects</h3>
-
-<h4>AWS Multi-VPC Firewall Architecture</h4>
-<p>
-Designed 3 interconnected VPCs using Transit Gateway
-and centralized FortiGate Firewall.
-</p>
-
-<h4>AWS Disaster Recovery Solution</h4>
-<p>
-Built multi-region DR environment with automatic sync
-using S3 and WordPress.
-</p>
-
-<h3>Contact</h3>
-<p>Email: rrajeshkumaroff@gmail.com</p>
-
-</body>
-</html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajesh Kumar R | Portfolio</title>
 
 <style>
-body{
+
+*{
     margin:0;
-    font-family:Segoe UI;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
     background:#0f172a;
     color:white;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
 }
 
 .hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     text-align:center;
-    padding:80px 20px;
-    background:linear-gradient(135deg,#2563eb,#0ea5e9);
+    background:linear-gradient(135deg,#0f172a,#1e293b);
 }
 
-.section{
-    max-width:1200px;
-    margin:auto;
-    padding:40px;
+.hero h1{
+    font-size:4rem;
+    margin-bottom:10px;
 }
 
-.card{
-    background:#1e293b;
-    padding:20px;
-    margin:20px 0;
-    border-radius:12px;
+.hero h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#cbd5e1;
+    margin-bottom:25px;
 }
 
 .btn{
     display:inline-block;
-    padding:12px 20px;
-    margin:10px;
-    background:#38bdf8;
+    padding:12px 25px;
+    margin:5px;
+    border-radius:10px;
+    background:#2563eb;
     color:white;
     text-decoration:none;
-    border-radius:8px;
+    transition:0.3s;
 }
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2rem;
+    color:#38bdf8;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+}
+
+.timeline{
+    border-left:3px solid #38bdf8;
+    padding-left:30px;
+}
+
+.timeline-item{
+    margin-bottom:30px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+}
+
 </style>
+</head>
 
-<h2>Technical Skills</h2>
+<body>
 
-<div class="card">
-Azure Administration
+<section class="hero">
+<div class="container">
+<h1>Rajesh Kumar R</h1>
+<h2>Senior IT Operations & Endpoint Management Analyst</h2>
+
+<p>
+Azure • AWS • Intune • Microsoft 365 • Cloud Security
+</p>
+
+<a hrefumarR.pdfDownload Resume</a>
+
+<a href="https://linkedin.com/in/YOUR-LINKEDIN"
+class="btn">LinkedIn</a>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">About rd">
+Experienced IT professional specializing in Microsoft Intune,
+Azure Administration, AWS Cloud Infrastructure,
+Microsoft 365, Endpoint Management, Asset Management
+and Cloud Security.
 </div>
 
-<div class="card">
-Microsoft Intune
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">Azure</div>
+
+<div class="skill-card">AWS</div>
+
+<div class="skill-card">Microsoft Intune</div>
+
+<div class="skill-card">Microsoft 365</div>
+
+<div class="skill-card">SharePoint Online</div>
+
+<div class="skill-card">FortiGate Firewall</div>
+
+<div class="skill-card">Windows Admin</div>
+
+<div class="skill-card">Cloud Security</div>
+
 </div>
 
-<div class="card">
-Microsoft 365
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Experience</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>Kaar Technologies</h3>
+<p>Senior Analyst | 2024 - Present</p>
+<p>Intune Administration, Microsoft 365, Azure,
+Asset Management, MFA Administration.</p>
 </div>
 
-<div class="card">
-AWS Cloud
+<div class="timeline-item">
+<h3>Secure Network Solutions</h3>
+<p>Cloud Security Engineer | 2023 - 2024</p>
+<p>AWS Infrastructure, IAM, EC2, CloudWatch,
+FortiGate Firewall Deployment.</p>
 </div>
 
-<div class="card">
-FortiGate Firewall
 </div>
 
-<h2>Projects</h2>
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
 
 <div class="card">
 <h3>AWS Multi-VPC Firewall Architecture</h3>
+
 <p>
-Designed three AWS VPCs connected through a Transit Gateway
-with FortiGate Firewall for centralized security.
+Designed three AWS VPCs connected via Transit Gateway
+and secured with FortiGate Firewall.
 </p>
+
 </div>
 
 <div class="card">
-<h3>Disaster Recovery Solution</h3>
+<h3>AWS Disaster Recovery Solution</h3>
+
 <p>
-Implemented multi-region disaster recovery architecture
-using AWS S3 synchronization and WordPress hosting.
+Implemented multi-region disaster recovery using
+AWS S3 synchronization and WordPress deployment.
 </p>
+
 </div>
 
-<h2>Experience</h2>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="projects">
 
 <div class="card">
-<h3>Kaar Technologies</h3>
-<p>Senior Analyst | 2024 - Present</p>
+Azure Fundamentals
 </div>
 
 <div class="card">
-<h3>Secure Network Solutions</h3>
-<p>Cloud Security Engineer | 2023 - 2024</p>
+AWS Training
 </div>
 
-<h2>Contact</h2>
+<div class="card">
+CCNA
+</div>
+
+<div class="card">
+Linux Administration
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+
+<h3>Contact</h3>
 
 <p>📧 rrajeshkumaroff@gmail.com</p>
+
 <p>📱 +91 9790763119</p>
+
+</footer>
+
+</body>
+</html>
